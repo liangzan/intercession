@@ -4,7 +4,7 @@
 
 == Description
 
-This fork is Rails 3.0.3 compatible
+This fork is Rails 3.0.3 compatible. Install with "gem install liangzan-intercession"
 
 Treat your sessions like models, not hashes. Intercession mixes a module into
 the session on each request, allowing you to nicely encapsulate (and test!)
