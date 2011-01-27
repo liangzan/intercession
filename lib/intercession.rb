@@ -1,15 +1,12 @@
 module Intercession
-
   # Duh.
-  VERSION = "2.0.0"
+  VERSION = "3.0.0"
 
   def self.included klass
     klass.append_after_filter :intercede_after
 
     ks =  []
-    ks << ActionController::Session::AbstractStore::SessionHash rescue nil
-    ks << CGI::Session rescue nil
-
+    ks << ActionDispatch::Session::AbstractStore::SessionHash rescue nil
     ks.compact.each { |c| c.send :include, Transient::Session }
   end
 
