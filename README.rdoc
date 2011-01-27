@@ -1,5 +1,7 @@
 = Intercession
 
+This fork is Rails 3.0.3 compatible
+
 * http://github.com/jbarnette/intercession
 
 == Description

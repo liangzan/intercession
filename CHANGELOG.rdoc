@@ -1,3 +1,7 @@
+=== 3.0.0 / 2011-01-27
+* Rails 3.0.3 compatible
+* Usage and installation is backward compatible
+
 === 2.0.0 / 2009-09-28
 
 * Different approach. Supports Rails v2.2.2 and v2.3.4.
