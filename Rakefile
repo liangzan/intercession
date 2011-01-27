@@ -3,7 +3,7 @@ require "hoe"
 
 Hoe.plugin :doofus, :git
 
-Hoe.spec "intercession" do
+Hoe.spec "liangzan-intercession" do
   developer "John Barnette", "jbarnette@rubyforge.org"
 
   self.extra_rdoc_files = FileList["*.rdoc"]
