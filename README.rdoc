@@ -1,10 +1,10 @@
 = Intercession
 
-This fork is Rails 3.0.3 compatible
-
 * http://github.com/jbarnette/intercession
 
 == Description
+
+This fork is Rails 3.0.3 compatible
 
 Treat your sessions like models, not hashes. Intercession mixes a module into
 the session on each request, allowing you to nicely encapsulate (and test!)
